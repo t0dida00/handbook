@@ -1,0 +1,240 @@
+@import "../styles/variables.module.scss";
+
+#productsTable,
+#newdashboard {
+    font-family: 'Nunito Sans', sans-serif;
+    .p-datatable-thead > tr > th {
+        font-weight: 600 !important;
+        background-color: $gray_22;
+        padding: 12px 18px;
+        font-size: 16px;
+        line-height: 24px;
+        flex:none
+    }
+
+    .p-datatable-thead .p-sortable-column:focus {
+        box-shadow: none;
+    }
+
+    .p-datatable-tbody > tr {
+        background-color: inherit;
+
+        &:not(:last-child) {
+            border-bottom: 0.5px solid #d3d3d3;
+        }
+
+        &:hover {
+            td {
+                color: $button_1;
+                img.icon {
+                    display: flex;
+                }
+                img.blue {
+                    display: inline;
+                }
+
+                img.black {
+                    display: none;
+                }
+            }
+        }
+
+        td {
+            padding: 18px;
+        }
+
+        // &:hover {
+        //     opacity: 0.6;
+        //     color: $white;
+        //     background-color: $textcolor;
+        //     transition: all 0.2s ease-in-out;
+
+        //     img {
+
+        //         filter: brightness(0) invert(1);
+        //     }
+        // }
+    }
+
+    .p-paginator {
+        & .p-paginator-pages {
+            display: flex;
+            & .p-paginator-page {
+                height: 32px !important;
+                width: 32px !important;
+                padding: 2px 7px !important;
+                margin: 0 10px !important;
+                min-width: 0 !important;
+                margin: 0 4px !important;
+                &.p-highlight {
+                    outline: none;
+                    background: $textcolor ;
+                    color: $white !important;
+                }
+              
+            }
+        }
+    }
+    
+    .p-datatable-tbody > tr img {
+        max-width: none;
+    }
+
+    .p-paginator {
+        & .p-paginator-pages {
+            & .p-link:focus {
+                box-shadow: none;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 794px) {
+        display: none !important;
+    }
+
+    .p-datatable-wrapper {
+        border-radius: 8px;
+        // box-shadow: 0px 8px 100px 0px rgba(35, 47, 63, 0.1);
+        overflow: hidden;
+        border: 1px solid #d3d3d3;
+    }
+    & .p-datatable-tbody > tr > td{
+        flex:none;
+    }
+    &  .p-datatable-tbody .p-datatable-emptymessage>td{
+        flex:1 1 !important;
+    }
+    & .p-datatable-tbody > tr > td,
+    & .p-paginator-bottom {
+        border: none !important;
+    }
+    & .p-datatable-tbody > tr > td >span{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        @media screen and (max-width: 1280px){
+            max-width: 180px;
+        }
+    }
+    & .p-paginator-bottom {
+        padding-top: 32px;
+        background-color: transparent;
+        position: relative;
+    }
+
+    .p-sortable-column-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .p-sortable-column-icon,
+    .p-sortable-column-icon::before {
+        height: 18px;
+        width: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        opacity: 0.5;
+    }
+
+    .p-sortable-column-icon.pi.pi-fw.pi-sort-alt::before {
+        content: "";
+        background-image: url("../../public/icons/Sort_all.svg");
+    }
+
+    .pi-sort-amount-up-alt:before {
+        content: "";
+        background-image: url("../../public/icons/Sort_up.svg");
+    }
+
+    // .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover .p-sortable-column-icon {
+    //     color: #495057;
+
+    //   }
+
+    .pi-sort-amount-down:before {
+        content: "";
+        // color: #495057;
+        background-image: url("../../public/icons/Sort_down.svg");
+    }
+
+    .p-paginator-icon,
+    .p-paginator-icon::before {
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+    .pi-angle-left:before {
+        content: "";
+        background-image: url("../../public/icons/arrow_left.svg");
+    }
+
+    .pi-angle-right:before {
+        content: "";
+        background-image: url("../../public/icons/arrow_right.svg");
+    }
+
+    .p-sortable-column .p-sortable-column-icon {
+        margin-left: 4px;
+    }
+
+    .p-paginator .p-paginator-first,
+    .p-paginator .p-paginator-prev,
+    .p-paginator .p-paginator-next,
+    .p-paginator .p-paginator-last {
+        height: 32px !important;
+        width: 32px !important;
+        padding: 2px 7px !important;
+        margin: 0 !important;
+        min-width: 0 !important;
+    }
+
+    .p-paginator .p-paginator-current {
+        position: absolute;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        cursor: auto;
+    }
+
+    .p-link:focus {
+        box-shadow: none;
+    }
+    .icon {
+        @media (max-width: 744px) {
+            display:none ;
+        }
+      }
+    
+      .icon:hover {
+        opacity: 0.7 ;
+        transition: 0.15s;
+      }
+}
+.dark {
+    #productsTable{
+        & .p-datatable-tbody > tr > td >span{
+          color:$white;
+        }
+    & .p-paginator-pages {
+        & .p-paginator-page {
+            &.p-highlight {
+                background: $textcolor ;
+                color: $white !important;
+            }
+
+            &.p-highlight  {
+                background: $white ;
+                color: $textcolor !important;
+            }
+        }
+    }
+}}

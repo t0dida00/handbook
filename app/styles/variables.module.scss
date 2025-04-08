@@ -1,0 +1,207 @@
+// colors
+
+$lagoon: #00DDD6;
+$blue: #2F66FC; 
+$blue_2: #376DE0; 
+$yellow: #FFDA3E; 
+$pink: #FF46A2; 
+$black: #000000; 
+$light_black: #232F3F; 
+$gray_1: #707070; 
+$gray_2: #FAFAFA; 
+$gray_3: #888888; 
+$gray_4: #C4C4C4;
+$gray_5: #898989;
+$gray_6: #6F6E6E;
+$gray_7: #EFEFF4;
+$gray_8: #D1D1D1;
+$gray_9: #F4F2FC;
+$gray_10: #D5D5D5;
+$gray_11: #C3C3C4;
+$gray_12: #2F2F2F;
+$gray_13: #797979;
+$gray_14: #5D5D5D;
+$gray_15: #DEDBDB;
+$gray_16: #BCBCBC;
+$gray_17: #646464;
+$gray_18: #EEEEEE;
+$gray_19: #E9EDEE;
+$gray_20: #EAEEEF;
+$gray_21: #D3D3D3;
+$gray_22: #F8F9FA;
+//new colors ////////////////////////////////////////////
+
+// main
+
+$textcolor: #232F3F;
+$white: #FFFFFF;
+$dark: #232F3F;
+$background: #F7F7F7;
+$button_1: #2DA8E5;
+$button_2: #232F3F;
+$button_3: #F41C87;
+$avatar-banner: #A9DBEA;
+
+// alerts
+
+$error: #EF233C;
+$success: #06CF3E;
+
+// report status
+
+$high_need: #FF5353;
+$medium_need: #FF8D50;
+$low_need: #FFDA3E;
+$optimized: #33D08D;
+
+// epigenetic indicators
+
+$vitamins: #37CEC9;
+$minerals: #4FC6F7;
+$antioxidants: #E683B5;
+$aminoacids: #F0C26A;
+$fattyacids: #E07A4C;
+$microbiology: #F26969;
+$toxicexposure: #555DB9;
+$electromagneticcharge: #9F68BC;
+
+// add report background colors
+
+$wel_left: #A9DBEA;
+$wel_right: #232f3f;
+
+$spo_left: #d2c9f9;
+$spo_right: #232f3f;
+
+$veg_left: #ccf4b8;
+$veg_right: #232f3f;
+
+$bea_left: #ffdae1;
+$bea_right: #232f3f;
+
+$age_left: #fde598;
+$age_right: #232f3f;
+
+$esn_left: #adcfc4;
+$esn_right: #232f3f;
+
+$dog_left: #fadf88;
+$dog_right: #232f3f;
+
+$cat_left: #c5fd98;
+$cat_right: #232f3f;
+
+$hrs_left: #c7a776;
+$hrs_right: #232f3f;
+
+$sft_left: #EAE9E5;
+$sft_right: #232f3f;
+
+$dxg_left: #FFF5DE;
+$dxg_right: #232f3f;
+
+$met_left: #81A4CD;
+$met_right: #232f3f;
+
+$bac_left: #00B4D8;
+$bac_right: #131B26;
+
+//////////////////////////////////////////////////////////
+
+// line height
+$h2_line_height: 3.25rem; //78px
+$h3_line_height: 2.875rem; //69px
+$lxxxxx_line_height: 2.625rem;///63px
+$lxxxx_line_height: 2.292rem;///55px
+$lxxx_LG_line_height: 2rem; //48px
+$lxxx_LG_sm_line_height: 1.917rem; //46px
+$lxxx_LG_sm_s_line_height: 1.75rem; //42px
+$lxxx_line_height:1.625rem; //39px
+$l_line_height: 1.333rem; //35px
+$l_m_line_height: 1.375rem; //33px
+$sl_line_height: 1.25rem; //30px
+$slx_line_height: 1.125rem; //27px
+$sxlx_line_height: 1.042rem; //25px
+$ssl_line_height: 1rem; //24px
+// $sssl_line_height: 0.917rem; //22px
+$sssl_line_height: 22px;
+// font size
+
+$basic_font_size: 24px;
+$basic_font_size_sll: 22px;
+$basic_font_size_sl: 20px;
+$basic_font_size_s: 18px;
+
+$basic_font_size_sx: 16px;
+$basic_font_size_sxx: 14px;
+
+
+$h1_fs: 2.6667rem; //64px
+$h2_xl_fs: 2.3333rem; //56px
+$h2_fs: 2.25rem; //54px
+$h3_xl_fs: 2.167rem; //52px
+// $h3_fs: 2rem; //48px
+$h3_fs: 1.833rem; //44px
+$h4_xl_fs: 1.833rem; //44px
+$h4_fs: 1.75rem; //42px
+$h5_fs: 1.5833rem; //38px
+
+
+$lsss_button_fs: 0.6rem; // (min-width: 1024px)  and (max-width: 1249px) base 18px
+$lss_button_fs: 0.7rem; // (min-width: 1250px)  and (max-width: 1440px) base 18px
+$ls_button_fs: 0.8rem;
+$l_button_fs: 1.0417rem; //25px 
+
+$xxxxxl_fs: 1.5rem; //36px
+$xxxxl_fs: 1.417rem; //34px
+$xxxl_fs: 1.3333rem; //32px
+
+$xxl_fs: 1.25rem; //30px
+$xl_fs: 1.1667rem; //28px
+$xl_sm_fs: 1.083rem; //26px
+$l_fs: 1rem; //24px
+
+$s_fs: 0.9167rem; //22px
+$sx_fs: 0.8333rem; //20px
+$sxx_fs: 0.75rem; //18px
+$sxxx_fs: 0.6667rem; //16px
+$sxxxx_fs: 0.5833rem; //14px
+$sxxxxx_fs: 0.5rem; //12px
+
+
+$page_side_offset: 120px;
+$page_side_offset_md: 80px;
+$page_side_offset_sm: 60px;
+
+$page_purechase_side_offset: 220px;
+$page_purechase_side_offset_md: 130px;
+
+$mobile_buy_banner_height: 79px;
+
+$laptop_2k: 2000px;
+$laptop_full_hd: 1920px;
+$laptop_full_hd_min: 1919px;
+
+$laptop: 1440px;
+$laptop_min: 1439px;
+
+$laptop_hd: 1366px;
+$laptop_hd_min: 1365px;
+
+$laptop_small: 1260px;
+$laptop_small_min: 1239px;
+
+$extra_large: 1140px;
+$extra_large_min: 1139px;
+
+$large: 960px;
+$large_min: 959px;
+
+$medium: 720px;
+$medium_min: 719px;
+
+$small: 576px;
+$small_min: 575px;
+
+$extra_small: 360px;
+
